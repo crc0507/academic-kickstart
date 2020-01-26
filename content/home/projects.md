@@ -8,8 +8,6 @@ weight = 65  # Order that this section will appear.
 title = "Projects"
 subtitle = ""
 
-title = "Projects2"
-subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
