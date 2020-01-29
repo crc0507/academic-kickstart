@@ -4,11 +4,11 @@ date = 2017-06-10T00:00:00
 layout = "project"
 
 # Project title.
-title = "QRcode"
+title = "Indoor positioning navigation system based on two-dimensional code"
 
 # Project summary to display on homepage.
 summary = """
-It is an Android App to find route in the building using the QRcode.
+It is an Android App to find route in the building using the QRcode. Users can scan the QRcode to submit location information to the system. Then the system will return a route to the destination.
 """
 
 # Tags: can be used for filtering projects.
