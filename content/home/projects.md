@@ -13,6 +13,25 @@ subtitle = ""
   # Page type to display. E.g. project.
   page_type = "project"
   
++++
+# Date this page was created.
+date = 2019-03-06T00:00:00
+layout = "project"
+
+# Project title.
+title = "Data2Art Blog"
+
+# Project summary to display on homepage.
+summary = "A blog writing about software Development, Data Science and share some useful things."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+# tags = ["AI"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = "https://github.com/crc0507/academic-kickstart"
++++
+  
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
   # To show all items, set `tag` to "*".
