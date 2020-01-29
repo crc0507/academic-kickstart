@@ -16,5 +16,5 @@ Based on the information characteristics of the mobile phone network, a complete
 tags = ["Web"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/crc0507"
+external_link = "https://github.com/crc0507/CriminalSystem.git"
 +++
