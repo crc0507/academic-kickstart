@@ -11,7 +11,7 @@ summary = "An Android App to find route in the building using QRcode."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["All", "Android"]
+tags = ["Android"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/crc0507"
