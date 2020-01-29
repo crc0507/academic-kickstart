@@ -26,4 +26,9 @@ subtitle = ""
   name = "Python"
 #   description = "100%"  
 
+[[feature]]
+  icon = "tv"
+  icon_pack = "fas"
+  name = "Web Development"
+#   description = "100%"  
 +++
