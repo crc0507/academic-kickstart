@@ -31,7 +31,7 @@ education:
   - course: M.S. in Artificial Intelligence
     institution: University of Texas at Arlington
     year: 2019
-  - course: M.S. in Software Engineering
+  - course: MEng. in Software Engineering
     institution: Beijing University of Posts and Telecommunications
     year: 2018
   - course: B.E in Software Engineering
