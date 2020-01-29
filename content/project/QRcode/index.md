@@ -13,7 +13,7 @@ It is an Android App to find route in the building using the QRcode.
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Andoird"]
+tags = ["Android"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/crc0507"
