@@ -3,6 +3,9 @@
 date = 2017-06-10T00:00:00
 layout = "homework"
 
+widget = "accomplishments"
+headless = true
+
 [[item]]
   organization = "kaggle"
   organization_url = "https://www.kaggle.com/c/nlp-getting-started"
