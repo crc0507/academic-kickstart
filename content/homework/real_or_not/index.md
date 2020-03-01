@@ -16,5 +16,6 @@ I used Logic Regression model to predict if the tweet is a disaster or not.
 # tags = ["School","Web","AI"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/crc0507/ManageSystem"
+# external_link = "https://github.com/crc0507/ManageSystem"
+url = "files/RuochenChang_RealOrNot"
 +++
