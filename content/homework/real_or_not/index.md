@@ -5,12 +5,14 @@ layout = "homework"
 
 # Project title.
 title = "Real or Not? NLP with Disaster Tweets"
+organization = "kaggle"
+organization_url = "https://www.kaggle.com/c/nlp-getting-started"
 
 # Project summary to display on homepage.
 summary = """
 I used Logic Regression model to predict if the tweet is a disaster or not.
 """
-link = "files/ranking.jpg"
+certificate_url = "files/ranking.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
