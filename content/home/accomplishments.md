@@ -2,7 +2,7 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Homework"
@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   organization = "kaggle"
   organization_url = "https://www.kaggle.com/c/nlp-getting-started"
   title = "Real or Not? NLP with Disaster Tweets"
-  date_start = "Mar 2020"
+  date_start = "2020"
   url = "files/RuochenChang_RealOrNot.ipynb"
   certificate_url = "files/ranking.jpg"
   description = "I used Logic Regression model to predict if the tweet is a disaster or not."
