@@ -3,10 +3,17 @@
 date = 2017-06-10T00:00:00
 layout = "homework"
 
+[[item]]
+  organization = "kaggle"
+  organization_url = "https://www.kaggle.com/c/nlp-getting-started"
+  title = "Real or Not? NLP with Disaster Tweets"
+  url = ""
+  certificate_url = "files/ranking.jpg"
+  description = "I used Logic Regression model to predict if the tweet is a disaster or not."
+  
+  
 # Project title.
 title = "Real or Not? NLP with Disaster Tweets"
-organization = "kaggle"
-organization_url = "https://www.kaggle.com/c/nlp-getting-started"
 
 # Project summary to display on homepage.
 summary = """
