@@ -10,7 +10,7 @@ title = "Real or Not? NLP with Disaster Tweets"
 summary = """
 I used Logic Regression model to predict if the tweet is a disaster or not.
 """
-link = files/ranking.jpg"
+link = "files/ranking.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
