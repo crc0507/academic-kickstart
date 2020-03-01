@@ -11,6 +11,9 @@ summary = """
 I used Logic Regression model to predict if the tweet is a disaster or not.
 """
 
+-ico: cv
+ link = files/ranking.jpg"
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 # tags = ["School","Web","AI"]
