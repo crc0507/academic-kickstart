@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   organization_url = "https://www.kaggle.com/c/nlp-getting-started"
   title = "Real or Not? NLP with Disaster Tweets"
   date_start = "2020"
-  url = "files/RuochenChang_RealOrNot.ipynb"
+  url = "https://www.kaggle.com/ruochenchang/kernel5ed82c5423"
   certificate_url = "files/ranking.jpg"
   description = "I used Logic Regression model to predict if the tweet is a disaster or not."
 
