@@ -4,7 +4,8 @@ title: Real or Not? NLP with Disaster Tweets
 ---
 
 ### This blog illustrates how to predict which Tweets are about real disasters and which ones are not by Logic Regression.
-### link to kaggle:https://www.kaggle.com/ruochenchang/kernel5ed82c5423
+### link to kaggle:  
+https://www.kaggle.com/ruochenchang/kernel5ed82c5423
 ### This Notebook was ranked: 1739 and achieved an accuracy of 0.79447 on the test data
 ### 1. Importing necessory libraries
 
