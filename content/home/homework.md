@@ -23,7 +23,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "kaggle"
   organization_url = "https://www.kaggle.com/c/nlp-getting-started"
-  title = "Real or Not? NLP with Disaster "
+  title = "Real or Not? NLP with Disaster Tweets"
   url = "https://www.kaggle.com/ruochenchang/kernel5ed82c5423"
   certificate_url = "files/ranking.jpg"
   date_start = "2020-02-27"
