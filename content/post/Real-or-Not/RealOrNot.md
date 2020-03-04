@@ -1,8 +1,9 @@
 ---
 date: 2017-12-01
-title: My first blog post
+title: Real or Not? NLP with Disaster Tweets
 ---
 
+### Predict which Tweets are about real disasters and which ones are not
 ### 1. Importing necessory libraries
 
 
