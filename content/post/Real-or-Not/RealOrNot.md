@@ -3,7 +3,6 @@ date: 2017-12-01
 title: Real or Not? NLP with Disaster Tweets
 ---
 
-### Twitter has become an important communication channel in times of emergency.The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).
 ### This blog illustrates how to predict which Tweets are about real disasters and which ones are not by Logic Regression.
 ### link to kaggle:https://www.kaggle.com/ruochenchang/kernel5ed82c5423
 ### This Notebook was ranked: 1739 and achieved an accuracy of 0.79447 on the test data
