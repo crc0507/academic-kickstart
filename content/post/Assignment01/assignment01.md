@@ -1,3 +1,12 @@
+---
+date: 2017-12-01
+title: Assignment01
+---
+
+### This blog illustrates the concept of overfitting using the Polynomial regression.
+
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
