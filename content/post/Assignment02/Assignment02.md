@@ -1,3 +1,12 @@
+---
+date: 2017-12-01
+title: Assignment02
+---
+
+### This blog illustrates KNN from scratch with different hyperparameters.
+
+
+
 ```python
 from random import seed
 from csv import reader
