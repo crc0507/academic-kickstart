@@ -1,12 +1,3 @@
----
-date: 2017-12-01
-title: Assignment02
----
-
-### This blog illustrates KNN from scratch with different hyperparameters.
-
-
-
 ```python
 from random import seed
 from csv import reader
@@ -22,15 +13,18 @@ from prettytable import PrettyTable
 
 
 ```python
-def load_csv(filename):
+def load_file(filename):
     alldata = list()
     with open(filename, 'r') as file:
-        csv_reader = reader(file)
-        for row in csv_reader:
+        r = reader(file)
+        for row in r:
             if not row:
                 continue
             alldata.append(row)
     return alldata
+
+filename = '/Users/jizhimeicrc/Desktop/iris.data.csv'
+dataset = load_file(filename)
 
 def str_to_float(dataset, column):
     for row in dataset:
@@ -47,8 +41,6 @@ def str_to_int(dataset, column):
         row[column] = diction[row[column]]
     return diction
 
-filename = '/Users/jizhimeicrc/Desktop/iris.data.csv'
-dataset = load_csv(filename)
 for i in range(len(dataset[0])-1):
     str_to_float(dataset, i)
 # convert class column to integers
