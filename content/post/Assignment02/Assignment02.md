@@ -4,9 +4,8 @@ title: Assignment02
 ---
 
 ### This blog illustrates KNN from scratch with different hyperparameters.
-[[main]]
-   name = "download path"
-   url = "files/Chang_02.ipynb"
+name = "download path"
+url = "files/Chang_02.ipynb"
 
 
 ```python
