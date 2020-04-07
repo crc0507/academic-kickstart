@@ -4,8 +4,7 @@ title: Assignment02
 ---
 
 ### This blog illustrates KNN from scratch with different hyperparameters.
-name = "download path"
-url = "files/Chang_02.ipynb"
+[download path](https://ruochenchang.netlify.com/files/Chang_02.ipynb)
 
 
 ```python
