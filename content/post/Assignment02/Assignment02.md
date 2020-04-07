@@ -4,6 +4,8 @@ title: Assignment02
 ---
 
 ### This blog illustrates KNN from scratch with different hyperparameters.
+### download:
+url = "files/Chang_02.ipynb"
 
 
 ```python
