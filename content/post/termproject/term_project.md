@@ -19,10 +19,10 @@ title: Term Project
 #### The basic idea of Naive Bayes is: For a given item to be classified, find the probability of occurrence of each category under the condition that this item appears, whichever is the largest, it is considered that the item to be classified belongs to that category.
 
 # Naive Bayes model:
-![image.png](attachment:./static/img/1.png)
+![image.png](https://ruochenchang.netlify.com/files/static/img/1.png)
 
 #### Because all the Y and P(X) are the same, so we can equate the model to such model:
-![image.png](attachment:./static/img/2.png)
+![image.png](https://ruochenchang.netlify.com/files/static/img/2.png)
 #### So we need to calculate the probability and conditional probability of our data.
 
 # Steps to do the Naive Bayes
