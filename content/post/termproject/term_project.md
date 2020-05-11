@@ -1,31 +1,29 @@
----
-date: 2017-12-01
-title: Term Project
----
-
 # Prediction of BoardGameGeek Reviews
 
 ## NAME: Ruochen Chang
 ## ID: 1001780924
 
-# This is a blog illustrates the implementation of Naive Bayes from scratch.
-### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
-### [website](https://termproject123.herokuapp.com/run_classify)
-### [kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33790860)
+# Introduction
+#### This is a blog illustrates the implementation of Naive Bayes from scratch.Our goal in this blog is to build a classification model to predict the rating of reviews using Naive Bayes.
+####  I just refered the Naive Bayes model from the Internet and built the classification model from scratch by myself.3
+#### The basic idea of Naive Bayes is: For a given item to be classified, find the probability of occurrence of each category under the condition that this item appears, whichever is the largest, it is considered that the item to be classified belongs to that category.
 
 # Naive Bayes model:
 ![image.png](attachment:image.png)
+
 #### Because all the Y and P(X) are the same, so we can equate the model to such model:
 ![image.png](attachment:image.png)
 #### So we need to calculate the probability and conditional probability of our data.
 
-# a. Divide the dataset as train data for 70% and test data for 30%.  
-### This review file has 2 columns, comment and rating. 
-### comment is the review text we should 
-### rating is the score of the reviews.
-## Our goal is predicting the rating according to the comment text.
+# Steps to do the Naive Bayes
+## a. Divide the dataset as train data for 70% and test data for 30%.  
+### Data Description:
+#### This review file has 2 columns, comment and rating. 
+#### comment is the review text we should classify
+#### rating is the score of the reviews.
+### Our goal is predicting the rating according to the comment text.
 
-#### For this data, there are many continuous data. So I make them discreet as such rules:
+#### For this data, the value of data is continuous. So I make them discreet as such rules:
 #### First, I rounded them to integer number. Then, 
 #### rate as 1 for numbers from 0 to 2;
 #### rate as 2 for numbers from 3 to 4;
@@ -34,6 +32,7 @@ title: Term Project
 #### rate as 5 for numbers from 9 to 10;
 
 #### After loading all the data to the jupyter, I did some pre-processing including text cleaning, tokenization and remove stopwords.
+#### Our data is often confusing and unintuitive. Therefore, we always have to pre-process the data in a series, which makes the data format more standardized and the content more reasonable. Common data preprocessing methods are: fill in the null value, remove the outliers, data cleaning, tokenization, remove stopwords and so on.
 
 
 ```python
@@ -136,7 +135,7 @@ print(test.head())
     1846433  [hexes, little, restrictive, aside, probably, ...       3
 
 
-# b. Build a vocabulary as list. 
+## b. Build a vocabulary as list. 
 #### Building a vocabulary means build a dictionary for all the words with their occurrence under every label like this: {'happy': [10, 20, 30, 40, 50], ...}. This example means the word happy occurs 10 times under label 1, 20 times under label 2, 30 times under label 3 and so on.
 #### To be more reasonable, I removed words whose occurrence are less than 10.
 
@@ -189,7 +188,7 @@ f.write(str(vocabulary_list))
 f.close()
 ```
 
-# c. Calculate the probability and conditional probability for all the words.
+## c. Calculate the probability and conditional probability for all the words.
 
 #### calculate the total number of every label.
 
@@ -218,7 +217,9 @@ print(label_count)
 ##### Conditional probability based on the sentiment: P[word | Positive]  = number of positive documents containing this word / num of all positive review documents
 
 #### There are 5 labels totally. So I build a probability list and a conditional probability list to save different 5 labels.
-#### To make our model more reasonable, I used Laplace smoothing to solve the problem of zero probability.
+### To make our model more reasonable, I used Laplace smoothing to solve the problem of zero probability.
+## Laplace Smoothing:
+#### The zero probability problem is that if a certain amount x does not appear in the observation sample library (training set), the result of probability of the entire instance will be 0 when calculating the probability of an instance. In the problem of text classification, when a word does not appear in the training sample, the probability of that word is 0, and it is also 0 when the probability of text occurrence is calculated using multiplication. Clearly, this is unreasonable, and you cannot arbitrarily think that the probability of an event is 0 because it is not observed. In order to solve the problem of zero probability, the French mathematician Laplace first proposed the method of adding 1 to estimate the probability of a phenomenon that a data has not occurred, so this smoothing is also called Laplace smoothing. Assuming that the training sample is very large, the estimated probability change caused by adding 1 to the count of each component x can be ignored, but it can easily and effectively avoid the zero probability problem.
 
 
 ```python
@@ -250,8 +251,8 @@ print("\nOcurrence of going word under label 1: ", conditional_prob('going', 1))
     Ocurrence of going word under label 1:  0.030893198579623055
 
 
-# d. predict test data
-#### I classified all the test data accroding to our model and print the accuracy.
+## d. predict test data
+#### For test data, we have also pre-processed before, so it is clean data to make prediction. I classified all the test data accroding to our model and print the accuracy. The result of accuracy is about 40%.
 
 
 ```python
@@ -279,6 +280,10 @@ print(accuracy)
     *********predict accuracy*********
     0.4036574007963838
 
+
+# Challenge:
+#### This data is continuous, so I made them discreet. At first, I divided the rating value to 10 grades, but the accuracy is about 20%. So I chose to divide the rating value to 5 grades which is more reasonable because there are so many websites setting the review rating as 5 grades.
+#### In the future, I want to have a try to build a SVM model and LSTM model to make classification because the time is limited this time.
 
 
 ```python
