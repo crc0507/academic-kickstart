@@ -1,17 +1,7 @@
----
-date: 2017-12-01
-title: Term Project
----
-
 # Prediction of BoardGameGeek Reviews
 
 ## NAME: Ruochen Chang
 ## ID: 1001780924
-
-### [kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33791920)
-### [website](https://termproject123.herokuapp.com/run_classify)
-### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.md)
-### [download path](https://ruochenchang.netlify.com/files/term_project.ipynb)
 
 # Introduction
 #### This is a blog illustrates the implementation of Naive Bayes from scratch.Our goal in this blog is to build a classification model to predict the rating of reviews using Naive Bayes.
