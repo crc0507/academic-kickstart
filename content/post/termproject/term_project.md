@@ -3,6 +3,8 @@ date: 2017-12-01
 title: Term Project
 ---
 
+math : true
+
 # Prediction of BoardGameGeek Reviews
 
 ## NAME: Ruochen Chang
@@ -20,10 +22,10 @@ title: Term Project
 #### The basic idea of Naive Bayes is: For a given item to be classified, find the probability of occurrence of each category under the condition that this item appears, whichever is the largest, it is considered that the item to be classified belongs to that category.
 
 # Naive Bayes model:
-![jpg](./Featured.jpg)
+$$ P(Y=y_i│X)=\frac{P(Y=y_i ) ∏_{i=1}d P(Y=y_i)}{P(X)} $$
 
 #### Because all the Y and P(X) are the same, so we can equate the model to such model:
-![jpg](./2.jpg)
+$$ P(Y=y_i│X)=arg⁡ maxP(Y=y_i)∏_{i=1} d P(X_i |Y=y_i) $$
 
 #### So we need to calculate the probability and conditional probability of our data.
 
