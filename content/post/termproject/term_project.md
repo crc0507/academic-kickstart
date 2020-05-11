@@ -12,6 +12,7 @@ title: Term Project
 ### [website](https://termproject123.herokuapp.com/run_classify)
 ### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
 ### [download path](https://ruochenchang.netlify.com/files/term_project.ipynb)
+### [video](https://youtu.be/jrbTii8GEB8)
 
 # Introduction
 #### This is a blog illustrates the implementation of Naive Bayes from scratch.Our goal in this blog is to build a classification model to predict the rating of reviews using Naive Bayes.
