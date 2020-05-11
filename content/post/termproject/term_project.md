@@ -23,6 +23,7 @@ math : true
 # Naive Bayes model:
 $$ P(Y=y_i│X)=\frac{P(Y=y_i ) ∏_{i=1}d P(Y=y_i)}{P(X)} $$
 
+
 #### Because all the Y and P(X) are the same, so we can equate the model to such model:
 $$ P(Y=y_i│X)=arg⁡ maxP(Y=y_i)∏_{i=1} d P(X_i |Y=y_i) $$
 
