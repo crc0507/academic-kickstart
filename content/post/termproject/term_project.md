@@ -11,6 +11,7 @@ math : true
 
 ### [kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33791920)
 ### [website](https://termproject123.herokuapp.com/run_classify)
+### [website git](https://github.com/crc0507/classifier-of-geek-board-game)
 ### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
 ### [download path](https://ruochenchang.netlify.com/files/term_project.ipynb)
 ### [video](https://youtu.be/jrbTii8GEB8)
