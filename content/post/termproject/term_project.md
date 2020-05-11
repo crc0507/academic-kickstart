@@ -5,20 +5,19 @@ title: Term Project
 
 # Prediction of BoardGameGeek Reviews
 
-# NAME: Ruochen Chang
-# ID: 1001780924
+## NAME: Ruochen Chang
+## ID: 1001780924
 
 # This is a blog illustrates the implementation of Naive Bayes from scratch.
-[project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
-[website](https://termproject123.herokuapp.com/run_classify)
-[kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33790860)
-# 
+### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
+### [website](https://termproject123.herokuapp.com/run_classify)
+### [kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33790860)
 
 # Naive Bayes model:
 ![image.png](attachment:image.png)
-# Because all the Y and P(X) are the same, so we can equate the model to such model:
+#### Because all the Y and P(X) are the same, so we can equate the model to such model:
 ![image.png](attachment:image.png)
-# So we need to calculate the probability and conditional probability of our data.
+#### So we need to calculate the probability and conditional probability of our data.
 
 # a. Divide the dataset as train data for 70% and test data for 30%.  
 ### This review file has 2 columns, comment and rating. 
