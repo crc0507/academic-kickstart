@@ -9,9 +9,9 @@ title: Term Project
 # ID: 1001780924
 
 # This is a blog illustrates the implementation of Naive Bayes from scratch.
-[project git]: https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb
-[website]: https://termproject123.herokuapp.com/run_classify
-[kaggle]: https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33790860
+[project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.ipynb)
+[website](https://termproject123.herokuapp.com/run_classify)
+[kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33790860)
 # 
 
 # Naive Bayes model:
