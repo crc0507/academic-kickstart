@@ -11,6 +11,7 @@ title: Term Project
 ### [kaggle](https://www.kaggle.com/ruochenchang/kernel38913c6a48?scriptVersionId=33791920)
 ### [website](https://termproject123.herokuapp.com/run_classify)
 ### [project git](https://github.com/crc0507/academic-kickstart/blob/master/content/post/termproject/term_project.md)
+### [download path](https://ruochenchang.netlify.com/files/term_project.ipynb)
 
 # Introduction
 #### This is a blog illustrates the implementation of Naive Bayes from scratch.Our goal in this blog is to build a classification model to predict the rating of reviews using Naive Bayes.
@@ -18,10 +19,10 @@ title: Term Project
 #### The basic idea of Naive Bayes is: For a given item to be classified, find the probability of occurrence of each category under the condition that this item appears, whichever is the largest, it is considered that the item to be classified belongs to that category.
 
 # Naive Bayes model:
-![image.png](attachment:image.png)
+![image.png](attachment:/img/1.png)
 
 #### Because all the Y and P(X) are the same, so we can equate the model to such model:
-![image.png](attachment:image.png)
+![image.png](attachment:/img/2.png)
 #### So we need to calculate the probability and conditional probability of our data.
 
 # Steps to do the Naive Bayes
