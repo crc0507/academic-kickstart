@@ -1,9 +1,8 @@
 ---
 date: 2017-12-01
 title: Term Project
----
-
 math : true
+---
 
 # Prediction of BoardGameGeek Reviews
 
