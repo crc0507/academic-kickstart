@@ -1,3 +1,10 @@
+---
+date: 2017-12-01
+title: Term Project
+---
+
+# Prediction of BoardGameGeek Reviews
+
 # NAME: Ruochen Chang
 # ID: 1001780924
 
