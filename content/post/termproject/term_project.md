@@ -1,10 +1,8 @@
 ---
 date: 2017-12-01
-title: Term Project
+title: 预测BoardGameGeek评论的打分情况
 math : true
 ---
-
-# 预测BoardGameGeek评论的打分情况
 
 ## NAME: Ruochen Chang
 ## ID: 1001780924
