@@ -1,9 +1,9 @@
 ---
 date: 2017-12-01
-title: Assignment01
+title: 多项回归过拟合原理
 ---
 
-### This blog illustrates the concept of overfitting using the Polynomial regression.
+### 本篇博客详细说明了多项式回归中产生过拟合的原因，以及如何解决。
 
 
 
