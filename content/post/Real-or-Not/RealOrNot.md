@@ -1,6 +1,6 @@
 ---
 date: 2017-12-01
-title: Real or Not? NLP with Disaster Tweets
+title: 预测推文中灾难描述的真实性
 ---
 
 ### 该博客说明了如何通过逻辑回归来预测哪些推文与实际灾难有关，哪些与逻辑灾难无关。
