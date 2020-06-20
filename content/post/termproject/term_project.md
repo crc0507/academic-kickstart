@@ -4,7 +4,7 @@ title: Term Project
 math : true
 ---
 
-# Prediction of BoardGameGeek Reviews
+# 预测BoardGameGeek评论的打分情况
 
 ## NAME: Ruochen Chang
 ## ID: 1001780924
@@ -17,9 +17,8 @@ math : true
 ### [video](https://youtu.be/jrbTii8GEB8)
 
 # Introduction
-#### This is a blog illustrates the implementation of Naive Bayes from scratch.Our goal in this blog is to build a classification model to predict the rating of reviews using Naive Bayes.
-####  I just refered the Naive Bayes model from the Internet and built the classification model from scratch by myself.3
-#### The basic idea of Naive Bayes is: For a given item to be classified, find the probability of occurrence of each category under the condition that this item appears, whichever is the largest, it is considered that the item to be classified belongs to that category.
+#### 该篇博客从零实现了朴素贝叶斯。我们的目标是建立一个分类模型，以使用朴素贝叶斯预测评论的评分。
+#### 朴素贝叶斯的基本思想是：对于要分类给定，找到出现该项目的条件下每个类别的出现概率，以最大者为准，认为该项目将被分类 属于该类别。
 
 # Naive Bayes model:
 $$ P(Y=y_i│X)=\frac{P(Y=y_i ) ∏_{i=1}d P(Y=y_i)}{P(X)} $$
