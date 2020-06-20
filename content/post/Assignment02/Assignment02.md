@@ -1,9 +1,9 @@
 ---
 date: 2017-12-01
-title: Assignment02
+title: 从零实现KNN算法
 ---
 
-### This blog illustrates KNN from scratch with different hyperparameters.
+### 本篇博客不借助任何库，根据KNN算法的原理手写实现了KNN算法。并且根据使用数据选择了合适的超参数进行预测。
 [download path](https://ruochenchang.netlify.com/files/Chang_02.ipynb)
 
 
