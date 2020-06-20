@@ -33,6 +33,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Android"
     tag = "Android"
+    
+  [[content.filter_button]]
+    name = "数据挖掘"
+    tag = "DM"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
