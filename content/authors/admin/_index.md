@@ -13,30 +13,30 @@ superuser: true
 role: 北京邮电大学/得克萨斯州立大学阿灵顿分校
 
 # Organizations/Affiliations
-organizations:
-- name: University of Texas at Arlington
-  url: ""
+# organizations:
+# - name: University of Texas at Arlington
+#  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Maching Learning, Data Mining and Big Data.
+# bio: My research interests include Maching Learning, Data Mining and Big Data.
 
 interests:
-- Artificial Intelligence
-- Maching Learning
-- Data Mining
-- Big Data
+- Java开发
+- python开发
+- 机器学习
+- 数据挖掘
 
 education:
   courses:
-  - course: M.S. in Artificial Intelligence
-    institution: University of Texas at Arlington
-    year: 2019
-  - course: MEng. in Software Engineering
-    institution: Beijing University of Posts and Telecommunications
-    year: 2018
-  - course: B.E in Software Engineering
-    institution: Beijing University of Posts and Telecommunications
-    year: 2014
+  - institution: 北京邮电大学
+    course: 软件工程硕士
+    year: 2018-2021
+  - institution: 德克萨斯州立大学阿灵顿分校
+    course: 计算机科学硕士
+    year: 2019-2020
+  - institution: 北京邮电大学
+    course: 软件工程本科
+    year: 2014-2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:crc0507@163.com".
+  link: '#contact'  # For a direct email link, use "mailto:ruochenchang@163.com".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ruochen-chang-23044619b/
@@ -71,4 +71,4 @@ user_groups:
 - Visitors
 ---
 
-Ruochen Chang is a student of artificial intelligence at University of Texas at Arlington. Her research interests include Machine Learning, Data Mining and Big Data.
+# Ruochen Chang is a student of artificial intelligence at University of Texas at Arlington. Her research interests include Machine Learning, Data Mining and Big Data.
