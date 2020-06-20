@@ -26,7 +26,7 @@ interests:
 - Data Mining
 - Big Data
 
-教育经历:
+education:
   courses:
   - course: M.S. in Artificial Intelligence
     institution: University of Texas at Arlington
