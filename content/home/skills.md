@@ -31,4 +31,10 @@ subtitle = ""
   icon_pack = "fas"
   name = "Web Development"
 #   description = "100%"  
+
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "数据库"
+#   description = "100%"  
 +++
