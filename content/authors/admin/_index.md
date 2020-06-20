@@ -71,4 +71,3 @@ user_groups:
 - Visitors
 ---
 
-# Ruochen Chang is a student of artificial intelligence at University of Texas at Arlington. Her research interests include Machine Learning, Data Mining and Big Data.
