@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Ruochen Chang
+name: 常若辰
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Student of Artificial Intelligence
+role: 北京邮电大学/得克萨斯州立大学阿灵顿分校
 
 # Organizations/Affiliations
 organizations:
@@ -26,7 +26,7 @@ interests:
 - Data Mining
 - Big Data
 
-education:
+教育经历:
   courses:
   - course: M.S. in Artificial Intelligence
     institution: University of Texas at Arlington
